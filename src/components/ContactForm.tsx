@@ -21,7 +21,7 @@ const ContactForm = () => {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
-    try {
+    /*try {
       const res = await fetch("/api/send", {
         method: "POST",
         headers: {
@@ -58,7 +58,7 @@ const ContactForm = () => {
         ),
         variant: "destructive",
       });
-    }
+    }*/
     setLoading(false);
   };
   return (
