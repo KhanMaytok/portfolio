@@ -116,7 +116,7 @@ using use = useUsing("use")`,
     label: "Express",
     shortDescription: "middlewares go dummy hard, no cap! 🚂💨",
     color: "#fff",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
   },
   [SkillNames.POSTGRES]: {
     id: 11,
