@@ -1,6 +1,6 @@
 // thoda zada ts ho gya idhar
 export enum SkillNames {
-  JS = "js",
+  PYTHON = "python",
   TS = "ts",
   HTML = "html",
   CSS = "css",
@@ -34,13 +34,13 @@ export type Skill = {
   icon: string;
 };
 export const SKILLS: Record<SkillNames, Skill> = {
-  [SkillNames.JS]: {
+  [SkillNames.PYTHON]: {
     id: 1,
-    name: "js",
-    label: "JavaScript",
-    shortDescription: "yeeting code into the DOM since '95, no cap! 💯🚀",
-    color: "#f0db4f",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    name: "python",
+    label: "Python",
+    shortDescription: "Escribo una línea, funcionan diez cosas. No sé por qué, pero funciona 🐍✨",
+    color: "#3776AB",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
   },
   [SkillNames.TS]: {
     id: 2,

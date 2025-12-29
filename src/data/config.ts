@@ -22,20 +22,22 @@ const config = {
     "Next.js",
     "Spline",
     "Framer Motion",
+    "Python",
+    "Django"
   ],
   author: "Giancarlo Ventura",
-  email: "naresh.khatri2345@gmail.com",
-  site: "https://nareshkhatri.site",
+  email: "giancarlo@maytok.com",
+  site: "https://maytok.com",
 
   get ogImg() {
     return this.site + "/assets/seo/og-image.png";
   },
   social: {
-    twitter: "https://x.com/nothotchaddi",
-    linkedin: "https://www.linkedin.com/in/naresh-khatri/",
-    instagram: "https://www.instagram.com/hotchaddi",
-    facebook: "https://www.facebook.com/HotChaddi/",
-    github: "https://github.com/Naresh-Khatri",
+    twitter: "https://x.com/KhanMaytok",
+    linkedin: "https://www.linkedin.com/in/giancarlo-ventura/",
+    instagram: "https://www.instagram.com/cafecito.con.miel",
+    facebook: "https://www.facebook.com/KhanMaytok/",
+    github: "https://github.com/KhanMaytok",
   },
 };
 export { config };
