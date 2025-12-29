@@ -38,7 +38,7 @@ export const SKILLS: Record<SkillNames, Skill> = {
     id: 1,
     name: "python",
     label: "Python",
-    shortDescription: "Escribo una línea, funcionan diez cosas. No sé por qué, pero funciona 🐍✨",
+    shortDescription: "I write one line, ten things work. I don’t know why, but it works 🐍✨",
     color: "#3776AB",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
   },
